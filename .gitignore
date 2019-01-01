@@ -1,0 +1,7 @@
+kaggle/*/*.zip
+kaggle/*/*.csv
+kaggle/*/train/*
+kaggle/*/test/*
+.DS_Store
+.ipynb_checkpoints
+data

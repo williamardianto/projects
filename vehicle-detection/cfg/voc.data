@@ -1,0 +1,5 @@
+train  = VOC/voc_train.txt
+valid  = VOC/2007_test.txt
+names = data/voc.names
+backup = backup
+gpus  = 0,1,2,3

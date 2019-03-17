@@ -1,0 +1,17 @@
+version: '3'
+services:
+  web:
+    image: python-web-app
+    deploy:
+      replicas: 5
+    ports:
+     - "5000:80"
+    networks:
+     - webnet
+  redis:
+    image: "redis:alpine"
+    networks:
+      - webnet
+
+networks:
+  webnet:
